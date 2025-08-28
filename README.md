@@ -54,6 +54,15 @@ docker run -p 10000:10000 mehedi3128/resume-role-screening-api
 ```
 Then normally go to /docs and predict the resume role
 
+The docker image was uploaded or pushed to the docker hub.
+
+![dockerhub](assets/dockerhub.png)
+To upload, go to terminal:
+```
+docker login
+docker push mehedi3128/resume-role-screening-api
+```
+
 ## Streamlit WebApp
 To make the whole system interactive, a streamlit webapp [frontend.py](assets/frontend.py) was built.
 It takes the '.pkl' files and finally shows the predicted output
