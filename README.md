@@ -4,23 +4,24 @@
 The dataset was taken from kaggle, also uploaded in the assets named UpdatedResumeDataset.csv in this repository
 
 ## Model Training
-The dataset was preprocessed through removing emails, mentions, special characters, stopwords and lemmatization.
-Afterwards, They were converted to tfidf vectors to have semantic meaning within the texts.
-Also, detailed EDA and plots are clearly shown step by step.
+The dataset was preprocessed through removing emails, mentions, special characters, stopwords and lemmatization.  
+Afterwards, They were converted to tfidf vectors to have semantic meaning within the texts.  
+Also, detailed EDA and plots are clearly shown step by step.  
 
-The resume role categories with distribution is below:
+The resume role categories with distribution is below:  
 
-![pie](assets/pie.png)
+![pie](assets/pie.png)  
 
-Then after labelencoding, the model was trained by few ML algorithms and finally LogisticRegression showed 99.48% accuracy.
-For further use, reume_role_mode.pkl, tfidf_vectorizer.pkl and label_encoder.pkl files were saved. [link for pkl files](assets).
-[model.ipynb](assets/model.ipynb) to see the model training code.
+Then after labelencoding, the model was trained by few ML algorithms and finally LogisticRegression showed 99.48% accuracy.  
+For further use, reume_role_mode.pkl, tfidf_vectorizer.pkl and label_encoder.pkl files were saved. [link for pkl files](assets).  
+
+[model.ipynb](assets/model.ipynb) to see the model training code.  
 
 ## FastAPI Endpoints
-The fastapi had default home endpoint 'home' and the prediction endpoint '/predict_role/'
-The same text preprocessing are done on the texts extracted from pdf through PyPDF2
-To run:
-Go to terminal:
+The fastapi had default home endpoint 'home' and the prediction endpoint '/predict_role/'  
+The same text preprocessing are done on the texts extracted from pdf through PyPDF2  
+To run:  
+Go to terminal:  
 ```Terminal 
 uvicorn main:app --reload
 ```
