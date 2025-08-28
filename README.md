@@ -21,6 +21,8 @@ For further use, reume_role_mode.pkl, tfidf_vectorizer.pkl and label_encoder.pkl
 The fastapi had default home endpoint 'home' and the prediction endpoint '/predict_role/'
 The same text preprocessing are done on the texts extracted from pdf through PyPDF2
 To run:
-```Terminal #uvicorn main:app --reload```
+```Terminal 
+uvicorn main:app --reload
+```
 
 
