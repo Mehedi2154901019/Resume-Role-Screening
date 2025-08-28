@@ -9,6 +9,7 @@ Afterwards, They were converted to tfidf vectors to have semantic meaning within
 Also, detailed EDA and plots are clearly shown step by step.
 
 The resume role categories with distribution is below:
+
 ![pie](assets/pie.png)
 
 Then after labelencoding, the model was trained by few ML algorithms and finally LogisticRegression showed 99.48% accuracy.
