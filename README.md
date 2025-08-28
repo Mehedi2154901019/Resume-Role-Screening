@@ -1,7 +1,5 @@
 # Resume-Role-Screening
 
----
-
 ## Dataset
 The dataset was taken from kaggle, also uploaded here: [UpdatedResumeDataset.csv](assets/UpdatedResumeDataSet.csv).
 
