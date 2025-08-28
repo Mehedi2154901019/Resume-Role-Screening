@@ -81,7 +81,7 @@ Upload the pdf and shows the resume roles output after screening the pdf file.
 
 # The workflow of the final WebApp:
 ```
-streamlit -> docker image -> fastapi -> get response -> docker image -> streamlit -> show predicted resume role
+streamlit -> docker image -> fastapi -> get response -> streamlit -> show predicted resume role
 ```
 
 Thus the whole system works and hope anyone can build it from scratch using the detailed step by step description with the provided [assets](/assets) in this repository.
