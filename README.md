@@ -1,7 +1,7 @@
 # Resume-Role-Screening
 
 ## Dataset
-The dataset was taken from kaggle, also uploaded here: [UpdatedResumeDataset.csv](assets/UpdatedResumeDataSet.csv).
+The dataset was taken from kaggle, also uploaded in the assets named UpdatedResumeDataset.csv in this repository
 
 ## Model Training
 The dataset was preprocessed through removing emails, mentions, special characters, stopwords and lemmatization.
