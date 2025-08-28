@@ -13,7 +13,8 @@ The resume role categories with distribution is below:
 ![pie](assets/pie.png)  
 
 Then after labelencoding, the model was trained by few ML algorithms and finally LogisticRegression showed 99.48% accuracy.  
-For further use, reume_role_mode.pkl, tfidf_vectorizer.pkl and label_encoder.pkl files were saved. [link for pkl files](assets).  
+For further use, reume_role_mode.pkl, tfidf_vectorizer.pkl and label_encoder.pkl files were saved.   
+Link: [pkl files](assets).  
 
 See the model training code at [model.ipynb](assets/model.ipynb).
 
